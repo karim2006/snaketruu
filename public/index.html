@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CULEBRITA</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="pantalla">
+        <p class="font-weight-bold" style="color:black; font-size:18px;">SNAKE</p>
+
+    </div>
+    <div class="USUARIO">
+        Nombre de Usuario:<input type="text" name="username">
+        <input type="submit" value="startGame">
+    </div>
+</div>
+
+<script src="/node_modules/phaser/types/phaser.d.ts"></script>
+<script src="/ts/main.ts"></script>
+<script src="/ts/game.ts"></script>
+<script src="/ts/gameover.ts"></script>
+<script src="/ts/menu.ts"></script>
+
+<style>
+      main {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+        #contenedor {
+            margin-top: 50px;
+        }
+
+      .container{
+          background: #a440bd;
+          margin-top: 200px;
+      }
+      .USUARIO{
+          margin-top: 60px;
+      }
+      
+</style>
+
+</body>
+</html>
